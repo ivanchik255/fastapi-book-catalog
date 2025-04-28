@@ -1,0 +1,168 @@
+************* Module app.db
+app\db.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+************* Module app.models
+app\models.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+app\models.py:5:0: C0413: Import "from sqlalchemy import Column, Integer, String, ForeignKey" should be placed at the top of the module (wrong-import-position)
+app\models.py:6:0: C0413: Import "from sqlalchemy.orm import relationship" should be placed at the top of the module (wrong-import-position)
+app\models.py:7:0: E0401: Unable to import 'db' (import-error)
+app\models.py:7:0: C0413: Import "from db import Base" should be placed at the top of the module (wrong-import-position)
+app\models.py:9:0: C0115: Missing class docstring (missing-class-docstring)
+app\models.py:9:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+app\models.py:22:0: C0115: Missing class docstring (missing-class-docstring)
+app\models.py:22:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+app\models.py:30:0: C0115: Missing class docstring (missing-class-docstring)
+app\models.py:30:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+************* Module app.schemas
+app\schemas.py:47:0: W0311: Bad indentation. Found 7 spaces, expected 4 (bad-indentation)
+app\schemas.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+app\schemas.py:3:0: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:6:0: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:9:0: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:12:4: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:12:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+app\schemas.py:16:0: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:19:0: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:22:0: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:25:4: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:25:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+app\schemas.py:29:0: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:35:0: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:38:0: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:43:4: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:43:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+app\schemas.py:46:0: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:49:0: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:52:0: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:55:4: C0115: Missing class docstring (missing-class-docstring)
+app\schemas.py:55:4: R0903: Too few public methods (0/2) (too-few-public-methods)
+************* Module app.api.authors
+app\api\authors.py:54:0: C0301: Line too long (102/100) (line-too-long)
+app\api\authors.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+app\api\authors.py:5:0: C0413: Import "from typing import List" should be placed at the top of the module (wrong-import-position)
+app\api\authors.py:7:0: C0413: Import "from fastapi import APIRouter, Depends, HTTPException" should be placed at the top of the module (wrong-import-position)
+app\api\authors.py:8:0: C0413: Import "from sqlalchemy.orm import Session" should be placed at the top of the module (wrong-import-position)
+app\api\authors.py:10:0: C0410: Multiple imports on one line (models, schemas) (multiple-imports)
+app\api\authors.py:10:0: E0401: Unable to import 'models' (import-error)
+app\api\authors.py:10:0: C0413: Import "import models, schemas" should be placed at the top of the module (wrong-import-position)
+app\api\authors.py:10:0: E0401: Unable to import 'schemas' (import-error)
+app\api\authors.py:10:0: C0413: Import "import models, schemas" should be placed at the top of the module (wrong-import-position)
+app\api\authors.py:11:0: E0401: Unable to import 'db' (import-error)
+app\api\authors.py:11:0: C0413: Import "from db import SessionLocal, engine" should be placed at the top of the module (wrong-import-position)
+app\api\authors.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module app.api.books
+app\api\books.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+app\api\books.py:5:0: C0413: Import "from typing import List" should be placed at the top of the module (wrong-import-position)
+app\api\books.py:7:0: C0413: Import "from fastapi import APIRouter, Depends, HTTPException" should be placed at the top of the module (wrong-import-position)
+app\api\books.py:8:0: C0413: Import "from sqlalchemy.orm import Session" should be placed at the top of the module (wrong-import-position)
+app\api\books.py:10:0: C0410: Multiple imports on one line (models, schemas) (multiple-imports)
+app\api\books.py:10:0: E0401: Unable to import 'models' (import-error)
+app\api\books.py:10:0: C0413: Import "import models, schemas" should be placed at the top of the module (wrong-import-position)
+app\api\books.py:10:0: E0401: Unable to import 'schemas' (import-error)
+app\api\books.py:10:0: C0413: Import "import models, schemas" should be placed at the top of the module (wrong-import-position)
+app\api\books.py:11:0: E0401: Unable to import 'db' (import-error)
+app\api\books.py:11:0: C0413: Import "from db import SessionLocal, engine" should be placed at the top of the module (wrong-import-position)
+app\api\books.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+app\api\books.py:28:0: C0116: Missing function or method docstring (missing-function-docstring)
+app\api\books.py:37:0: C0116: Missing function or method docstring (missing-function-docstring)
+app\api\books.py:43:0: C0116: Missing function or method docstring (missing-function-docstring)
+app\api\books.py:51:0: C0116: Missing function or method docstring (missing-function-docstring)
+app\api\books.py:66:0: C0116: Missing function or method docstring (missing-function-docstring)
+app\api\books.py:76:0: C0116: Missing function or method docstring (missing-function-docstring)
+app\api\books.py:76:40: W0613: Unused argument 'db' (unused-argument)
+************* Module app.api.genres
+app\api\genres.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+app\api\genres.py:4:0: C0413: Import "from typing import List" should be placed at the top of the module (wrong-import-position)
+app\api\genres.py:6:0: C0413: Import "from fastapi import APIRouter, Depends, HTTPException" should be placed at the top of the module (wrong-import-position)
+app\api\genres.py:7:0: C0413: Import "from sqlalchemy.orm import Session" should be placed at the top of the module (wrong-import-position)
+app\api\genres.py:9:0: C0410: Multiple imports on one line (models, schemas) (multiple-imports)
+app\api\genres.py:9:0: E0401: Unable to import 'models' (import-error)
+app\api\genres.py:9:0: C0413: Import "import models, schemas" should be placed at the top of the module (wrong-import-position)
+app\api\genres.py:9:0: E0401: Unable to import 'schemas' (import-error)
+app\api\genres.py:9:0: C0413: Import "import models, schemas" should be placed at the top of the module (wrong-import-position)
+app\api\genres.py:10:0: E0401: Unable to import 'db' (import-error)
+app\api\genres.py:10:0: C0413: Import "from db import SessionLocal, engine" should be placed at the top of the module (wrong-import-position)
+app\api\genres.py:15:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module app.auth.users
+app\auth\users.py:35:0: C0301: Line too long (108/100) (line-too-long)
+app\auth\users.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+app\auth\users.py:7:0: C0413: Import "from fastapi import APIRouter, Depends, HTTPException, status" should be placed at the top of the module (wrong-import-position)
+app\auth\users.py:8:0: C0413: Import "from fastapi.security import OAuth2PasswordRequestForm" should be placed at the top of the module (wrong-import-position)
+app\auth\users.py:9:0: C0413: Import "from sqlalchemy.orm import Session" should be placed at the top of the module (wrong-import-position)
+app\auth\users.py:10:0: C0410: Multiple imports on one line (models, schemas) (multiple-imports)
+app\auth\users.py:10:0: E0401: Unable to import 'models' (import-error)
+app\auth\users.py:10:0: C0413: Import "import models, schemas" should be placed at the top of the module (wrong-import-position)
+app\auth\users.py:10:0: E0401: Unable to import 'schemas' (import-error)
+app\auth\users.py:10:0: C0413: Import "import models, schemas" should be placed at the top of the module (wrong-import-position)
+app\auth\users.py:11:0: E0401: Unable to import 'db' (import-error)
+app\auth\users.py:11:0: C0413: Import "from db import SessionLocal, engine" should be placed at the top of the module (wrong-import-position)
+app\auth\users.py:12:0: E0401: Unable to import 'utils' (import-error)
+app\auth\users.py:12:0: C0413: Import "from utils import get_password_hash, authenticate_user, create_access_token" should be placed at the top of the module (wrong-import-position)
+app\auth\users.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+app\auth\users.py:26:0: C0116: Missing function or method docstring (missing-function-docstring)
+app\auth\users.py:35:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module app.auth.utils
+app\auth\utils.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+app\auth\utils.py:5:0: C0413: Import "from passlib.context import CryptContext" should be placed at the top of the module (wrong-import-position)
+app\auth\utils.py:6:0: C0413: Import "from datetime import datetime, timedelta" should be placed at the top of the module (wrong-import-position)
+app\auth\utils.py:7:0: C0413: Import "from typing import Optional" should be placed at the top of the module (wrong-import-position)
+app\auth\utils.py:8:0: C0413: Import "from jose import JWTError, jwt" should be placed at the top of the module (wrong-import-position)
+app\auth\utils.py:9:0: C0413: Import "from sqlalchemy.orm import Session" should be placed at the top of the module (wrong-import-position)
+app\auth\utils.py:10:0: E0401: Unable to import 'models' (import-error)
+app\auth\utils.py:10:0: C0413: Import "import models" should be placed at the top of the module (wrong-import-position)
+app\auth\utils.py:11:0: C0413: Import "from fastapi import HTTPException, status" should be placed at the top of the module (wrong-import-position)
+app\auth\utils.py:6:0: C0411: standard import "datetime.datetime" should be placed before third party import "passlib.context.CryptContext" (wrong-import-order)
+app\auth\utils.py:7:0: C0411: standard import "typing.Optional" should be placed before third party import "passlib.context.CryptContext" (wrong-import-order)
+app\auth\utils.py:8:0: W0611: Unused JWTError imported from jose (unused-import)
+app\auth\utils.py:11:0: W0611: Unused HTTPException imported from fastapi (unused-import)
+app\auth\utils.py:11:0: W0611: Unused status imported from fastapi (unused-import)
+************* Module app.auth.__init__
+app\auth\__init__.py:1:0: R0801: Similar lines in 2 files
+==app.api.authors:[2:29]
+==app.api.books:[2:28]
+sys.path.append("\\Users\\belko\\book_catalog\\app")
+
+from typing import List
+
+from fastapi import APIRouter, Depends, HTTPException
+from sqlalchemy.orm import Session
+
+import models, schemas
+from db import SessionLocal, engine
+
+models.Base.metadata.create_all(bind=engine)
+
+
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+
+
+router = APIRouter()
+
+
+@router.post("/authors/", response_model=schemas.Author)
+def create_author(author: schemas.AuthorCreate, db: Session = Depends(get_db)):
+    """Создает нового автора.""" (duplicate-code)
+app\auth\__init__.py:1:0: R0801: Similar lines in 2 files
+==app.api.authors:[12:29]
+==app.auth.users:[13:26]
+models.Base.metadata.create_all(bind=engine)
+
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+
+router = APIRouter()
+
+@router.post("/users/", response_model=schemas.User)
+def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)): (duplicate-code)
+
+-----------------------------------
+Your code has been rated at 3.60/10
+
